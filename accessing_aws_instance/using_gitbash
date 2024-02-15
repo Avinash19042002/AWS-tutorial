@@ -1,0 +1,14 @@
+Steps to Access the AWS instance from windows using Gitbash
+
+step1: open the gitbash terminal from the path where .pem file is located 
+
+step2: ssh -i "ec2-demo.pem" ubuntu@ec2-35-154-224-78.ap-south-1.compute.amazonaws.com
+
+Note : ec2-demo.pem is the name of the key value pair you will get while generating an AWS instance
+ and the above command you can get from you AWS console -> Connect-> scroll down -> SSH Client -> get the command
+
+congrats  you have entered in the VM in the cloud.
+
+youtube link : https://www.youtube.com/watch?v=HPrq6kdsEZ0&list=PL6XT0grm_TfgtwtwUit305qS-HhDvb4du&index=11
+
+   Note : SSH is already inbuilt in gitbash so if you are not having ssh installed in you pc you can opt for gitbash and it by default uses linux commands.
