@@ -23,3 +23,6 @@ Now copy the ssh command that you find inside the connect tab on Amazon EC2.
 Open the command prompt and navigate to your pem file location. Execu the copied command and click enter.
 
 That's it. You are successfully ssh into your EC2 instance
+
+youtube link:  https://www.youtube.com/watch?v=gpQOiln8Q4k
+
