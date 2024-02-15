@@ -1,0 +1,21 @@
+steps to follow to access a virtual machine instance using putty
+
+
+step1: Download putty and puttygen.exe through browser 
+step2: Now open the puttygen.exe and there you will see a button called load, you need to load the <key_pair>.pem file in the format <key_pair>.ppk 
+step3: Now in the Hostname , first go to your instance in aws ,there you will see an option called connect . click on that and scroll down you will see something like this
+
+ssh -i "ec2-demo.pem" ubuntu@ec2-35-154-224-78.ap-south-1.compute.amazonaws.com
+
+Note : here ec2-demo.pem is the name of the key-value pair which i have created for my instance 
+
+copy the hostname i.e  ubuntu@ec2-35-154-224-78.ap-south-1.compute.amazonaws.com
+and paste it there in the HostName.
+
+Now in the puttygen console you will see an option for SSH , click on the + then go to Auth there you will get a box asking for the private key for your instance created. Browse and get there .ppk (generated in the folder where .pem file)
+
+
+Now again go to the session in the puttygen console and you can save your session there and then click on Open
+
+Congrats !! you have entered to the VM on the cloud  Yay!!
+
